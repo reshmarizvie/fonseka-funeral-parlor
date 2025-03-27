@@ -8,3 +8,39 @@ For add the message What I do:
 
 For Upload :
  		git push origin main
+
+
+
+
+fonseka-funeral-parlor/  
+│── backend/                   # Backend (Node.js + Express + MongoDB)
+│   ├── models/                # Mongoose Schemas (Customer, Staff, Admin)
+│   │   ├── Customer.js  
+│   │   ├── Staff.js  
+│   │   ├── Admin.js  
+│   ├── routes/                # API Routes
+│   │   ├── customerRoutes.js  
+│   │   ├── staffRoutes.js  
+│   │   ├── adminRoutes.js  
+│   ├── controllers/           # Route Logic (Functions)
+│   │   ├── customerController.js  
+│   │   ├── staffController.js  
+│   │   ├── adminController.js  
+│   ├── middleware/            # Authentication & Middleware
+│   │   ├── authMiddleware.js  
+│   ├── config/                # Database & Other Configurations
+│   │   ├── db.js  
+│   ├── .env                   # Environment Variables (DB_URI, JWT_SECRET)
+│   ├── server.js              # Main Express Server
+│   ├── package.json           # Backend Dependencies  
+│── frontend/                  # Frontend (React.js)
+│   ├── src/  
+│   │   ├── components/        # Reusable UI Components  
+│   │   ├── pages/             # Pages (Admin Dashboard, Staff Dashboard)
+│   │   ├── context/           # React Context API (Authentication, Global State)
+│   │   ├── App.js             # Main App Component  
+│   │   ├── index.js           # React Entry Point  
+│   ├── public/                # Static Files (Logo, Images)
+│   ├── package.json           # Frontend Dependencies  
+│── .gitignore                 # Git Ignore File
+│── README.md                  # Project Documentation
