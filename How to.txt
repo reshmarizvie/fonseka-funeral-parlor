@@ -3,6 +3,9 @@ For git clone :
 
 For add a file :
 		git add (file Name)
+
+        git add .  (add all file)
+        
 For add the message What I do:
 		git commit -m "(Message)"
 
