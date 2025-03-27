@@ -1,0 +1,10 @@
+For git clone :
+		git clone https://github.com/reshmarizvie/fonseka-funeral-parlor.git
+
+For add a file :
+		git add (file Name)
+For add the message What I do:
+		git commit -m "(Message)"
+
+For Upload :
+ 		git push origin main
