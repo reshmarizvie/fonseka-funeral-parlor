@@ -5,7 +5,7 @@ For add a file :
 		git add (file Name)
 
         git add .  (add all file)
-        
+
 For add the message What I do:
 		git commit -m "(Message)"
 
@@ -13,7 +13,10 @@ For Upload :
  		git push origin main
 
 
+For dowload code:::
 
+Pull the latest changes from the remote repo:
+            git pull origin main  (or) git push   
 
 fonseka-funeral-parlor/  
 │── backend/                   # Backend (Node.js + Express + MongoDB)
